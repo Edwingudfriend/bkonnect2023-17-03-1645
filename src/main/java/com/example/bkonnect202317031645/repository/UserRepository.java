@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 //AADDED COMMENT
 public interface UserRepository extends JpaRepository <User,Long > {
+<<<<<<< HEAD
     User findByUsername(String username);
     boolean existsByUsername(String username);
     boolean existsByEmail(String email);
@@ -23,3 +24,7 @@ public interface UserRepository extends JpaRepository <User,Long > {
 
 
 
+=======
+
+}
+>>>>>>> github/master
